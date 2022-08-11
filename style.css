@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EEEEEE;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 144px;
+    height: 87px;
+}
+
+.header {
+    width: 100%;
+    height: 92px;
+    background-color: #CF2B2B;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.bottom {
+    width: 100%;
+    height: 92px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.conteudo {
+    padding: 92px 0;
+}
+
+.conteudo h1 {
+    font-size: 26px;
+    font-family: 'Righteous', cursive;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.conteudo h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+    margin-top: 10px;
+}
+
+.conteudo h3 {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18px;
+    color: #A6A6A6;
+    margin-top: 10px;
+}
+
+.item {
+    width: 172px;
+    height: 216px;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.2);
+    margin-right: 15px;
+    padding: 15px;
+}
+
+.itens {
+    display: flex;
+    overflow-x: scroll
+}
+
+.seção {
+    margin: 30px 0 15px 20px;
+}
+
+.botao-pedir {
+    width: 365px;
+    height: 60px;
+    background-color: #CBCBCB;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao-pedir h1 {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 23px;
+}
+
+.header h1 {
+    font-size: 44px;
+    font-family: 'Righteous', cursive;
+}
+
+.header h2 {
+    font-size: 18px;
+}
